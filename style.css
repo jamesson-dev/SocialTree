@@ -39,19 +39,21 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container {
     text-align: center;
     width: 300px;
     margin: 60px auto;
+}
 
+.logo {
+    width: 26px;
+    margin-right: 10px;
 }
 
 img {
     width: 100%;
-
 }
 
 img.avatar {
@@ -79,7 +81,6 @@ ul {
     margin: 48px 0;
 }
 
-
 ul li a {
     height: 53px;
     display: flex;
@@ -100,7 +101,6 @@ ul li a {
 ul li a:hover {
     background: var(--primary-color-dark);
 }
-
 
 footer {
     font-weight: 500;
